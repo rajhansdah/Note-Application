@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="344dp"
+        android:layout_height="527dp"
+        android:layout_marginBottom="85dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="8dp" />
+
+    <Button
+        android:id="@+id/add_1"
+        android:layout_width="63dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="305dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="305dp"
+        android:layout_marginTop="450dp"
+        android:background="@android:drawable/ic_input_add" />
+
+
+
+
+</FrameLayout>
