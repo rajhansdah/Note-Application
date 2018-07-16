@@ -49,7 +49,7 @@ public class DBClass extends SQLiteOpenHelper {
         cv.put("Type",content);
         String arr[] = {};
 
-        sqLiteDatabase.update("NOTES",cv,"",arr);
+        sqLiteDatabase.update("NOTES",cv,"Title = ?  AND Type = ?",arr);
 
     }
 
